@@ -1,0 +1,274 @@
+.farmPage {
+    margin-top: 20px;
+    height: 100vh;
+    background-color: transparent;
+}
+.farmPage .controller {
+    height: 100vh;
+    background-color: transparent;
+    padding: 8rem 12rem;
+}
+.farmPage .controller .controlBtn {
+    color : gray;
+    border : none;
+    width: 100%;
+    text-align: left;
+    background-color: white;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.farmPage .controller .controlBtn:hover {
+    background-color: #E1FFBE;
+}
+.farmPage .controller .card_controller{
+    background-color:#F1F1F1;
+    padding: 2rem 2rem 2rem 8rem;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px rgba(0.5, 0.5, 0.5, 0.5);
+    display: inline-block;
+}
+.farmPage .controller .controlBtn:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    opacity: 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.farmPage .controller .controlBtn img{
+    padding-top : 0.8rem; 
+    width: 50px;
+}
+.top-page {
+    padding: 3rem 3rem;
+    width: auto;
+} 
+.farmPage .controller .card_cntl_btn {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    height: auto;
+    margin: 0 auto;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+}
+.farmPage .controller .card_cntl_btn img {
+    width: 50px;
+    padding: 10px 2px 2px 2px;
+}
+.card {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.card img {
+    width: 40px;
+    padding: 2px 2px 2px 2px;
+}
+.textHeadControl {
+    color : gray;
+}
+.navBarSensor {
+    position: absolute;
+    top: 82px;
+    left: 0;
+    width: 245px;
+    height: 100vh;
+    background-color:#F5F5F5;
+  }
+
+.detailFarm {
+    height: 100vh; 
+    /*
+    overflow: auto;
+    */
+    background-color:white;
+}
+.sensorType {
+    background-color: #89ce6f;
+    padding: 20px 0;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+}
+.navBarSensor .lstSensor {
+    margin: 0 0;
+    padding: 0 0;
+    list-style-type: none;
+}
+.navBarSensor .lstSensor li{
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.navBarSensor .lstSensor li button img {
+    width: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.navBarSensor .lstSensor li button {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+    text-transform: uppercase;  
+}
+.navBarSensor .lstSensor li button:focus {
+    outline:0;
+    background-color: #89ce6f;
+}
+.navBarSensor .lstSensor li:hover {
+    background-color: #89ce6f;
+    border: none;
+    color: white;
+    transition: 0.3s;
+    text-transform: uppercase;  
+}
+.navBarSensor .lstSensor li button:hover {
+    text-decoration: underline;
+}
+.RTgraph {
+    margin: 0 2rem 2rem 2rem;
+    padding: 2rem;
+    border: 1px solid #C6C6C6;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.RTgraph .RTgraphText {
+    color: gray;
+    text-align: left;
+    margin-left: 2rem;
+    text-transform: uppercase;
+} 
+.topDashboard {
+    margin: 3rem 5rem;
+}
+.topDashboard .headerDashboard {
+    font-size: 20px;
+    color: gray;
+    text-align: left;
+    margin-left: 2rem;
+    text-transform: uppercase;
+}
+.topDashboard button img {
+    width: 50px;
+    align-items: left;
+}
+.topDashboard button {
+    margin: 2rem 2rem;
+    padding: 0;
+    font-size: 20px;
+    width: 200px;
+    height: 80px;
+}
+.controlPanel {
+    text-align: center;
+}
+.realTimeGraph {
+    padding: 2rem 0;
+}
+.controlPanel .cntrlCard {
+    width: 300px;
+    height: auto;
+    margin: 2rem auto;
+    padding-bottom: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.controlPanel .cntrlCard .cntrlName {
+    background-color: #89ce6f;
+    padding: 5px 0;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+}
+.controlPanel .cntrlCard .cntrlFan {
+    background-color: #2B9AE1;
+    padding: 5px 0;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+}
+.controlPanel .cntrlCard .cntrlLight {
+    background-color: #F54E43;
+    padding: 5px 0;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+}
+.controlPanel .cntrlCard .cntrlAir {
+    background-color: #23C2DC;
+    padding: 5px 0;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+}
+.controlPanel .cntrlCard img{
+    margin-top: 2rem; 
+    width: 40px;
+}
+.controlPanel .cntrlCard .speed{
+    font-size: 16px;
+    color:gray;
+    padding: 10px 0;
+}
+.controlPanel .cntrlCard Switch{
+    width: 150px;
+}
+.statusSensor {
+    margin: 2rem 10rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 2rem 2rem;
+}
+.headerStatus {
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+}
+.graphs {
+    margin: 5rem;
+}
+
+.headerGraph {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: #89ce6f;
+    margin: 0 2rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cntrlBtn {
+    margin: 0 5rem;
+}
+.cntrlBtn button{
+   width: 100px;
+}
+
+.rtVal {
+    margin: 3rem 5rem;
+}

@@ -1,0 +1,193 @@
+.gridHomePage {
+    background-color: transparent;
+    /*
+    display: grid;
+    grid-template-columns: 200px 80%;
+    */
+}
+.carouselCard .imgCarousel {
+    margin-top: 12rem; 
+    width: 90px;
+    transform: rotate(90deg);
+    transition: 0.2s;
+}
+.carouselCard .imgCarousel:hover {
+    filter: brightness(115%);
+    cursor: pointer;
+}
+.gridHomePage .carouselCard {
+    text-align: center;
+    margin: 0 auto;
+}
+.gridHomePage .carouselCard .textCarousel {
+    padding-top: 80px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.5);
+    color : #FACC2E;
+    font-size: 80px;
+}
+.gridHomePage .carouselCard .midline {
+    margin: 0 auto;
+    width: 3px;
+    height: 100%;
+    background-color: #FFF;
+}
+.gridHomePage .leftPanelHomePage {
+    background-color: #bddf74;
+    height: 115vh;
+    text-align: center;
+}
+.gridHomePage .leftPanelHomePage .subLeftPanel{
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 100%;
+}
+.gridHomePage .leftPanelHomePage img{
+    max-width: 190px;
+    text-align: center;
+    margin: 25px auto;
+}
+.gridHomePage .leftPanelHomePage .subLeftPanel a {
+    border: none;
+    height: 30px;
+    font-size: 18px;
+    color: #FFF;
+    padding: 2px;
+    margin: 2px;
+    opacity: 1;
+    transition: 0.2s;
+    text-align: left;
+}
+.gridHomePage .rightPanelHomePage {
+    margin: 0 auto;
+}
+.gridHomePage .leftPanelHomePage .subLeftPanel a:hover {
+    text-decoration: none;
+    color: #E6E6E6;
+    opacity: 1;
+    background-color: #B65919;
+}
+.gridHomePage .rightPanelHomePage .typeSensor {
+    background-color:#F2F2F2;
+    padding: 10px 0 50px 0;
+    /*
+    display: grid;
+    grid-template-columns: auto auto auto;
+    */
+}
+.detailSensor {
+    color : gray;
+}
+.typeSensor .subHeader {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+.typeSensor .subHeader .topicSensor {
+    font-size: 40px;
+}
+.gridHomePage .rightPanelHomePage .graph{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    text-align: center;
+}
+.gridHomePage .rightPanelHomePage .graph:hover {
+    transform: scale(1.02);
+  }
+.typeSensor .card{
+    width: 280px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.card .logocard {
+    text-align: center;
+}
+.card .farmName {
+    background-color: #89ce6f;
+    padding: 5px 0;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+}
+.detailBtn {
+    margin: 0 3rem;
+    text-align: center;
+}
+.typeSensor .card .logocard img {
+    margin: 0 auto;
+    max-width: 100px;
+}
+.typeSensor .allCard {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color:transparent;
+    padding: 0 0 0 2rem;
+}
+.valueSensor {
+    margin: 10px auto;
+    padding-top: 5px;
+    padding-left: 20px;  
+    width: 230px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 30% 70%; 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    transition: 0.15s;
+}
+.valueSensor:hover {
+    opacity: 1;
+    background-color: #FAFAF0;
+}
+.valueSensor img {
+    width: 40px;
+}
+.valueSensor .subValueSensor {
+    padding-top: 4px;
+    padding-left: 10px; 
+    color:#585858;
+    font-size: 23px;
+}
+.typeSensor .card:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    opacity: 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+.typeSensor .card:hover {
+    transform: scale(1.1);
+  }
+.typeSensor .card:hover:after {
+    opacity: 1;
+  }
+
+footer {
+    background-color: #89ce6f;
+    padding: 100px 100px;
+}
+footer .contact {
+    margin: 0 auto;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+footer .contact .contactLeft {
+    margin: 0 20px;
+}
+footer .contact .contactRight {
+    margin: 0 20px;
+}

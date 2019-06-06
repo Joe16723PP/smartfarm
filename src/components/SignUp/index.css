@@ -1,0 +1,144 @@
+
+  .card-signin {
+    background-color: white;
+    font-size: 15px;  
+    text-align: center;
+    margin: 10rem auto;
+    padding-left: 2rem;
+    padding-right: 2rem;  
+    width: 450px;
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  .colcard {
+    height: 100vh;
+  }
+  .logoSignin {
+    width: 80px;
+  }
+  .card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+  
+  }
+  .form-control {
+      border: none;
+      background-color: #F5FFED;
+  }
+  .form-signin {
+    width: 100%;
+  }
+  .card-body #logo {
+    max-width: 80px;
+  }
+  .form-signin .btn {
+    font-size: 100%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    transition: all 0.2s;
+  }
+  
+  .form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+  
+  .form-label-group input {
+    border-radius: 2rem;
+    height: 40px;
+    font-size: 1.8rem;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .form-label-group>input,
+  .form-label-group>label {
+    padding: 0.75rem 1.5rem;
+  }
+  
+  .form-label-group>label { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    /* Override default `<label>` margin */
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+    text-align: center;
+  }
+
+  .btn-google {
+    color: white;
+    background-color: #ea4335;
+    height: 4.5rem;
+  }
+  .forGotPass{
+    margin: 0 auto;
+    padding: 0.75rem 1.5rem;
+  }
+  .btn-facebook {
+    color: white;
+    background-color: #3b5998;
+    height: 4.5rem;
+  }
+
+  a #homeLink {
+      text-align: center;
+      height: 4.5rem;
+      font-size: 3rem;
+      padding-bottom: 8rem; 
+  }
+  #SignInBtn{
+    height: 4.5rem;
+  }
+.forgetPass {
+  margin-top: 1em;
+  text-align: center;
+}
+.loderComponent{
+    margin: 0 auto;
+    width: 120px;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+@media screen and (max-width: 900px) {
+  .container {
+      margin: 0 auto;
+      padding: 10% 0 0 0;
+  }
+  .container .row {
+    padding: 10% 0 0 0;
+  }
+  .card-signin {
+    width: 300px;
+  }
+  
+}
